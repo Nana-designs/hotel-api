@@ -1,0 +1,208 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+header{
+    background-color: #091936;
+    height: 100px; 
+    /* position: relative; */
+}
+#head{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    /* position: absolute; */
+}
+#headlink{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 20px;
+    width: 300px;
+    
+}
+#headlink li a: img{
+    padding: 0px
+}
+#headlink li a{
+    text-decoration: none;
+    /* list-style-type: none; */
+    color: #fff;
+}
+#headlink li a:hover{
+    font-size: 20px;
+    background-color: #077AB7;
+    border-radius: 8px;
+}
+#head input{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#where{
+        width: 600px;
+
+}
+.name {
+    background-image: url(main/images/Rectanglename.png);
+    height: 97px;
+    text-align: center;
+}
+#name {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+#name li{
+    text-decoration: none;
+    margin-top: 30px;
+}
+#name li a:link{
+    text-decoration: none;
+    color: black;
+}
+#name li a:hover{
+    text-decoration: underline;
+}
+.search-wrapper{
+    height: 450px;
+    background-image :
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.5)),
+    url(main/images/nameimage.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: -40px;
+}
+.search{
+    background-image: url(main/images/search_background.png);
+    width: 300px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    position: absolute;
+    transform: translate(120%, 300%);
+    /* gap: 1.0em; */
+}
+#hotel input, #hotel button{
+    /* background-color: #fff; */
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    padding: 0 0.62em;
+    outline: none;
+    text-align: center;
+    transform: translate(-40% -40%);
+}
+#hotel button{
+    background-color: #077AB7;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-right: 10px;
+
+}
+#hotel h2{
+    transform: translate(1%, 300%);
+    font-size: 48px;
+    color: #fff;
+
+}
+
+#hotel-text{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    margin-left: 40px;
+}
+
+.search-wrapper #hotel .search{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+footer {
+    padding-top: 80px;
+    background-color:  #091936;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFFCC;
+}
+
+#link li a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#link {
+    list-style-type: none;
+}
+#link li a:hover{
+    font-size: 20px;
+    color: #BB5C04;
+}
+footer > h2{
+    text-align: center;
+}
+.hotel-list {
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    /* grid-auto-rows:50px 50px; */
+    /* grid-gap: 3px; */
+    /* width: 400px; */
+    text-align: center;
+    height: auto;
+}
+.hotel-list_2{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, auto) ;
+    width: 400px;
+    text-align: center;
+}
+.hotel-list_3 {
+    padding-left: 40px;
+    display: flex;
+    /* grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, auto) ; */
+    width: 300px;
+    text-align: center;
+}
+.hotel-list_4{
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, auto) ;
+    width: 300px;
+    text-align: center;
+}
+#hotel1 img, #hotel2 img, #hotel3 img, #hotel4 img {
+    width: 300px;
+    height: 250px;
+    padding: 60px;
+    /* background-color: #F3F3F3; */
+    border-radius: 20px;
+}
+.hotel1, .hotel2, .hotel3, .hotel4{
+    background-color: #f3f3f3;
+    /* display: flex; */
+    width: 260px;
+    height: 250px;
+    padding: 60px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+#hotel1, #hotel2, #hotel3, #hotel4{
+    width: 200px;
+    height: 140px;
+   
+}
+    
